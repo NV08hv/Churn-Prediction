@@ -1,4 +1,4 @@
-### E-Commerce Customer Churn Prediction
+# E-Commerce Customer Churn Prediction
 ## 1. Introduction
 Predicting customer churn is a crucial task for businesses aiming to retain their customers and reduce turnover rates. The churn prediction problem involves identifying customers who are likely to stop using a service or product within a certain period. To solve this, companies analyze historical customer data, including demographic information, transaction histories, service usage patterns, and customer interactions. Machine learning algorithms, such as decision trees, logistic regression, SVM, XGBoost, are commonly applied to this data to build predictive models and feature engineering was applied to import model efficiency. By accurately identifying potential churners, businesses can take proactive measures, such as personalized marketing strategies or customer support interventions, to retain valuable customers and improve overall customer satisfaction. As the result, XGboost achieves the biggest accurancy, F1-score, Recall.
 ![image](https://github.com/user-attachments/assets/aadb7021-0994-4e42-ba1b-0fcd15ad125e)
