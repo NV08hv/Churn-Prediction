@@ -7,7 +7,9 @@ Demo churn prediction app: https://drive.google.com/file/d/1Gp03_-Lh2TzCc1M2xCFM
 
 ## 2. Dataset source
 - From kaggle, link: https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction/data
-## 3. EDA
+## 3. Cleaning data
+After quantity statistics, I had 'Tenure': 264 missing value, 'WarehouseToHome': 251 missing value, 'HourSpendOnApp':	255 missing value, 'OrderAmountHikeFromlastYear':	265 missing value, 'CouponUsed':	256 missing value, 'OrderCount':	258 missing value, 'DaySinceLastOrder':	307 missing value. All variable above I filled median value in every ariable, respectively.
+## 4. EDA
 ![image](https://github.com/user-attachments/assets/e7deb0e2-0644-4999-ae3d-af211f11813e)
 - Churn Label Distribution
 ![image](https://github.com/user-attachments/assets/23ef5926-6a3a-43bc-9825-3bde47c83eb5)
