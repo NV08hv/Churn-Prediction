@@ -25,6 +25,7 @@ After quantity statistics, I had 'Tenure': 264 missing value, 'WarehouseToHome':
 ![image](https://github.com/user-attachments/assets/796987ad-6746-4e25-bc56-11e0a63de9eb)
 ![image](https://github.com/user-attachments/assets/dcfd9e10-7dce-44df-a81a-48b1c119d367)
 ![image](https://github.com/user-attachments/assets/f65651c1-0cad-4a1b-add5-f37dab34d165)
+- Biểu đồ scatter plot cho thấy rằng Tenure có độ tương quan nghịch cao nhất với Churn, có nghĩa là Tenure càng thấp thì càng có khả năng Churn. Ngược lại, biến Complain có tương quan thuận cao đối với Churn nói cách khác khách hàng có phàn nàng về sản phẩm thì có thể khách hàng sẽ churn. Hơn nữa, mã giảm giá có độ tương quan bằng 0 nên có thể thấy mã giảm giá không ảnh hưởng đến sự gắn bó của khách hàng và có thể cân nhắc bỏ biến này ra khỏi thuộc tính dự đoán churn.
 ![image](https://github.com/user-attachments/assets/1bb86acf-bb04-46c2-9d43-fecb44e97de1)
 
 
