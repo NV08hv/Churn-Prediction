@@ -5,9 +5,9 @@
 - Dự đoán khách hàng rời bỏ là một nhiệm vụ quan trọng đối với các doanh nghiệp nhằm giữ chân khách hàng và giảm tỷ lệ rời bỏ. Vấn đề dự đoán khách hàng rời bỏ liên quan đến việc xác định những khách hàng có khả năng ngừng sử dụng dịch vụ hoặc sản phẩm trong một khoảng thời gian nhất định. Để giải quyết vấn đề này, các công ty phân tích dữ liệu khách hàng trong quá khứ, bao gồm thông tin nhân khẩu học, lịch sử giao dịch, mô hình sử dụng dịch vụ và các tương tác của khách hàng. Các thuật toán học máy, như cây quyết định, hồi quy logistic, SVM, XGBoost, thường được áp dụng vào dữ liệu này để xây dựng mô hình dự đoán và áp dụng kỹ thuật feature engineering để cải thiện hiệu suất mô hình. Bằng cách xác định chính xác những khách hàng có khả năng rời bỏ, doanh nghiệp có thể thực hiện các biện pháp chủ động, như chiến lược tiếp thị cá nhân hóa hoặc can thiệp hỗ trợ khách hàng, nhằm giữ chân khách hàng có giá trị và nâng cao sự hài lòng chung của khách hàng. Kết quả cho thấy XGBoost đạt độ chính xác, F1-score và Recall cao nhất.
 - Để xác định khách hàng churn thì phụ thuộc vào ngưỡng churn rate được tính như sau mà tác giả bộ dữ liệu phân loại khách hàng.
 ![image](https://github.com/user-attachments/assets/dab66c9a-88ad-479e-90e2-cdaa49e17445)
-- Demo churn prediction app: https://drive.google.com/file/d/1Gp03_-Lh2TzCc1M2xCFMxZf1u38I_FbW/view?usp=sharing
+- Dashboard
 ![image](https://github.com/user-attachments/assets/aadb7021-0994-4e42-ba1b-0fcd15ad125e)
-
+- Demo churn prediction app: https://drive.google.com/file/d/1Gp03_-Lh2TzCc1M2xCFMxZf1u38I_FbW/view?usp=sharing
 ## 2. Dataset source
 - Từ Kaggle, link: https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction/data
 ## 3. Cleaning data
