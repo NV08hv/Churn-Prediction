@@ -2,15 +2,15 @@
 ![image](https://github.com/user-attachments/assets/b3bdd1a4-fc9c-4196-946b-7fb1faacb4dc)
 
 ## 1. Introduction
-- Dự đoán khách hàng rời bỏ là một nhiệm vụ quan trọng đối với các doanh nghiệp nhằm giữ chân khách hàng và giảm tỷ lệ rời bỏ. Vấn đề dự đoán khách hàng rời bỏ liên quan đến việc xác định những khách hàng có khả năng ngừng sử dụng dịch vụ hoặc sản phẩm trong một khoảng thời gian nhất định. Để giải quyết vấn đề này, các công ty phân tích dữ liệu khách hàng trong quá khứ, bao gồm thông tin nhân khẩu học, lịch sử giao dịch, mô hình sử dụng dịch vụ và các tương tác của khách hàng. Các thuật toán học máy, như cây quyết định, hồi quy logistic, SVM, XGBoost, thường được áp dụng vào dữ liệu này để xây dựng mô hình dự đoán và áp dụng kỹ thuật feature engineering để cải thiện hiệu suất mô hình. Bằng cách xác định chính xác những khách hàng có khả năng rời bỏ, doanh nghiệp có thể thực hiện các biện pháp chủ động, như chiến lược tiếp thị cá nhân hóa hoặc can thiệp hỗ trợ khách hàng, nhằm giữ chân khách hàng có giá trị và nâng cao sự hài lòng chung của khách hàng. Kết quả cho thấy XGBoost đạt độ chính xác, F1-score và Recall cao nhất. \
+- Dự đoán khách hàng rời bỏ là một nhiệm vụ quan trọng đối với các doanh nghiệp nhằm giữ chân khách hàng và giảm tỷ lệ rời bỏ. Vấn đề dự đoán khách hàng rời bỏ liên quan đến việc xác định những khách hàng có khả năng ngừng sử dụng dịch vụ hoặc sản phẩm trong một khoảng thời gian nhất định. Để giải quyết vấn đề này, các công ty phân tích dữ liệu khách hàng trong quá khứ, bao gồm thông tin nhân khẩu học, lịch sử giao dịch, mô hình sử dụng dịch vụ và các tương tác của khách hàng. Các thuật toán học máy, như cây quyết định, hồi quy logistic, SVM, XGBoost, thường được áp dụng vào dữ liệu này để xây dựng mô hình dự đoán và áp dụng kỹ thuật feature engineering để cải thiện hiệu suất mô hình. Bằng cách xác định chính xác những khách hàng có khả năng rời bỏ, doanh nghiệp có thể thực hiện các biện pháp chủ động, như chiến lược tiếp thị cá nhân hóa hoặc can thiệp hỗ trợ khách hàng, nhằm giữ chân khách hàng có giá trị và nâng cao sự hài lòng chung của khách hàng. Kết quả cho thấy XGBoost đạt độ chính xác, F1-score và Recall cao nhất. 
 - Demo churn prediction app: https://drive.google.com/file/d/1Gp03_-Lh2TzCc1M2xCFMxZf1u38I_FbW/view?usp=sharing
 
 ![image](https://github.com/user-attachments/assets/aadb7021-0994-4e42-ba1b-0fcd15ad125e)
 
 ## 2. Dataset source
-- From kaggle, link: https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction/data
+- Từ Kaggle, link: https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction/data
 ## 3. Cleaning data
-After quantity statistics, I had 'Tenure': 264 missing value, 'WarehouseToHome': 251 missing value, 'HourSpendOnApp':	255 missing value, 'OrderAmountHikeFromlastYear':	265 missing value, 'CouponUsed':	256 missing value, 'OrderCount':	258 missing value, 'DaySinceLastOrder':	307 missing value. All variable above I filled median value in every ariable, respectively.
+- Dùng phân tích thống kê, ta có 'Tenure': 264 missing value, 'WarehouseToHome': 251 missing value, 'HourSpendOnApp':	255 missing value, 'OrderAmountHikeFromlastYear':	265 missing value, 'CouponUsed':	256 missing value, 'OrderCount':	258 missing value, 'DaySinceLastOrder':	307 missing value. Các biến sẽ được điền giá trị trung vị vào điểm dữ liệu thiếu vì để độ lệch của dữ liệu không thay đổi.
 ## 4. EDA
 - Phân bố nhãn của Churn cho thấy tỉ lệ khách hàng rời bỏ doanh nghiệp chiếm 16.8% trong bộ dữ liệu -> Bộ dữ liệu mất cân bằng.
 ![image](https://github.com/user-attachments/assets/23ef5926-6a3a-43bc-9825-3bde47c83eb5)
