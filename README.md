@@ -18,10 +18,10 @@
 ![image](https://github.com/user-attachments/assets/e7deb0e2-0644-4999-ae3d-af211f11813e)
 - Hình ảnh thể hiện tầng suất xuất hiện của thể loại trong biến phân loại -> có thể thấy được khách hàng có xu hướng dùng theo 1 thể loại cụ thể chiếm ưu thế hơn. Cụ thể trong hình thứ 1, điện thoại (phone) được dùng để mua hàng gấp đôi máy tính (computer). Ở các hình tiếp theo , khách hàng ưu tiên trả tiền bằng Thẻ ghi nợ (Debit card), đa số các lượt mua hàng là khách hàng nam -> đưa ra chiến lược phù hợp thu hút khách hàng nam dựa trên tính cách và sở thích của họ. Chính vì có nhiều khách hàng nam mua hàng nên sản phẩm về Mobile và Laptop & Accessory bán chạy hơn hẳn các thể loại hàng hóa khác trong biểu đồ thứ 4. Hơn nữa, khách hàng đã kết hôn có xu hướng mua hàng nhiều hơn để nâng cao chất lượng cuộc sống gia đình -> nhắm hoàn toàn mục tiêu vào hộ gia đình hoặc cung cấp khác loại mặt hàng khác nhằm thực hiện đa dạng sản phẩm đến mọi người trong xã hội cũng như mở rộng doanh nghiệp.
 ![image](https://github.com/user-attachments/assets/f3c048aa-f2e7-47c7-9ff5-0fc9d34721e6)
-![image](https://github.com/user-attachments/assets/9bc9913d-a0c9-4247-8e92-83ab85bd6c37)
 - Tenure là 1 biến thể hiện thời gian gắn bó của khách hàng đối với doanh ngiệp. Có thể thấy là đa số khách hàng hiện tại gắn bó với doanh nghiệp được khoảng dưới 10 năm là cao nhất và giảm dần theo các khoảng thời gian tiếp theo. Để nâng cao sự gắn bó của khách hàng với thời gian lâu hơn thì cần phát hiện những khách hàng muốn rời bỏ doanh nghiệp để áp dụng những chính sách ưu đãi giữ chân khách hàng.
-![image](https://github.com/user-attachments/assets/42b52524-c1d4-4926-b04b-1572e388377f)
+![image](https://github.com/user-attachments/assets/9bc9913d-a0c9-4247-8e92-83ab85bd6c37)
 - Phân bố của khách hàng churn theo từng biến.
+![image](https://github.com/user-attachments/assets/42b52524-c1d4-4926-b04b-1572e388377f)
 ![image](https://github.com/user-attachments/assets/796987ad-6746-4e25-bc56-11e0a63de9eb)
 ![image](https://github.com/user-attachments/assets/dcfd9e10-7dce-44df-a81a-48b1c119d367)
 ![image](https://github.com/user-attachments/assets/f65651c1-0cad-4a1b-add5-f37dab34d165)
